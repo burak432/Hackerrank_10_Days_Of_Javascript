@@ -1,0 +1,13 @@
+function isPositive(a) {
+    let message = "";
+    if(a > 0) {
+        message = "YES";
+        return message;
+    } else if(a === 0){
+        message = "Zero Error";
+        return message;
+    } else if(a < 0) {
+        message = "Negative Error";
+        return message;
+    }
+}
