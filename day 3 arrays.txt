@@ -1,0 +1,11 @@
+function getSecondLargest(nums) {
+    // Complete the function
+    let sorted = nums.sort((x,y) => {
+return x-y;
+});
+
+let yeni = sorted.filter(function(item, pos) {
+    return sorted.indexOf(item) == pos;
+});
+return yeni[yeni.length - 2];
+};
