@@ -5,3 +5,5 @@
 * After btnEql clicked, it creates an array, which is splitted by operant into two numbers.
 * And then it calculates and send result to the display screen.
 * Im pretty sure there are much better ways of doing it, but for now this is the best solution i could come up with. 
+
+![](binarycalc.jpg)
