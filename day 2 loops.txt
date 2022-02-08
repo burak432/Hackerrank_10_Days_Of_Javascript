@@ -1,0 +1,7 @@
+function vowelsAndConsonants(s) {
+      let yeni = [...s];
+  yeni.forEach(x => "aeiou".includes(x) ?
+    console.log(x) : false);
+  yeni.forEach(y => "aeiou".includes(y) ?
+    false : console.log(y));
+}
