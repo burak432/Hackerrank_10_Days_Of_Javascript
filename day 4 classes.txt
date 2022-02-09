@@ -1,0 +1,8 @@
+class Polygon {
+    constructor(arr){
+        this.arr = arr;
+        }
+        perimeter(arr) {
+            return this.arr.reduce((x,y) => x+y);
+        }
+}
