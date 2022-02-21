@@ -1,0 +1,10 @@
+function modifyArray(nums) {
+    let arr2 = nums.map(item => {
+    if (item % 2 === 0) {
+      return (item * 2);
+    } else {
+      return (item * 3);
+    }
+  })
+  return arr2;
+}
