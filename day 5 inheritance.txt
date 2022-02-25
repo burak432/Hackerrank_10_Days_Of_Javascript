@@ -1,0 +1,11 @@
+Rectangle.prototype.area = function(){
+    return this.w * this.h;
+}
+
+class Square extends Rectangle {
+    constructor(hey){
+        super(hey)
+        this.w = hey;
+        this.h = hey;
+    } 
+}
